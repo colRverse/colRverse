@@ -3,12 +3,13 @@ layout: page
 title: Packages
 ---
 
-# pavo  
+# [pavo](http://pavo.colrverse.com)  
 **Organization, visualise, and analyse spectral and spatial colour data** 
 
 <img src="{{ site.baseurl }}/assets/blog/jndplot.png" title="Profile" class="profile">  
 
-`pavo` offers a flexible and integrated workflow for working with spectral and spatial colour data. It includes functions that take advantage of new data classes to work seamlessly from importing raw spectra and images, to publication-quality visualisations, and analyses via a suite of analytical methods and visual models.
+`pavo` offers a flexible and integrated workflow for working with spectral and spatial colour data. It includes functions that take advantage of new data classes to work seamlessly from importing raw spectra and images, to publication-quality visualisations, and analyses via a suite of analytical methods and visual models.  
+[Learn more...](http://pavo.colrverse.com)
 
 **Install:** `install.packages('pavo')`
 
@@ -16,10 +17,11 @@ title: Packages
 
 ---
 
-# lightr 
+# [lightr](http://lightr.colrverse.com) 
 **Import spectral data and metadata**  
 
-`lightr` offers a unified, user-friendly interface for reading UV-VIS reflectance, transmittance, and/or absorbance spectral files and associated metadata from a suite of proprietary (and generally unfriendly) file formats, across all systems.
+`lightr` offers a unified, user-friendly interface for reading UV-VIS reflectance, transmittance, and/or absorbance spectral files and associated metadata from a suite of proprietary (and generally unfriendly) file formats, across all systems.  
+[Learn more...](http://lightr.colrverse.com)
 
 **Install** `install.packages('lightr')` 
 
