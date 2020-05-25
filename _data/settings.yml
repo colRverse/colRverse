@@ -1,15 +1,16 @@
 # Change 'comments' to true for Disqus comments
 disqus:
   comments: false
-  disqus_shortname: 'https-lenpaul-github-io-lagrange'
+  disqus_shortname: ''
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-ID: 'UA-112060364-1'
+google-ID: ''
 
 menu:
-- {name: 'About', path: 'menu', url: 'about.html'}
-- {name: 'Writing', path: 'menu', url: 'writing.html'}
-- {name: 'Contact', path: 'menu', url: 'contact.html'}
+- {name: 'Packages', path: 'menu', url: 'packages.html'}
+- {name: 'Blog', path: 'menu', url: 'blog.html'}
+- {name: 'Learn', path: 'menu', url: 'learn.html'}
+- {name: 'Help', path: 'menu', url: 'help.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
