@@ -3,7 +3,7 @@ title: "(3) Analysing Data"
 author: "Rafael Maia, Thomas White, Hugo Gruson, Pierre-Paul Bitton, Chad Eliason"
 date: "`r Sys.Date()`"
 output:
-  rmarkdown::html_vignette:
+  rmarkdown::md_document:
     toc: true
     toc_depth: 4
 bibliography: main.bib
