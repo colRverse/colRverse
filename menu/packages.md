@@ -21,7 +21,7 @@ title: Packages
 `lightr` offers a unified, user-friendly interface for reading UV-VIS reflectance, transmittance, and/or absorbance spectral files and associated metadata from a suite of proprietary (and generally unfriendly) file formats, across all systems.  
 [Learn more...](http://lightr.colrverse.com)
 
-**Install** `install.packages('lightr')` 
+**Install:** `install.packages('lightr')` 
 
 **Cite:** Gruson H, White TE, Maia R (2019) lightr: import spectral data and metadata in R. [_Journal of Open Source Software_](https://doi.org/10.21105/joss.01857). 
 
