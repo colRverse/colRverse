@@ -8,8 +8,9 @@ google-ID: ''
 
 menu:
 - {name: 'Packages', path: 'menu', url: 'packages.html'}
-- {name: 'Learn', path: 'menu', url: 'learn.html'}
 - {name: 'Updates', path: 'menu', url: 'updates.html'}
+- {name: 'Learn', path: 'menu', url: 'learn.html'}
+- {name: 'News', path: 'menu', url: 'News.html'}
 - {name: 'Help', path: 'menu', url: 'help.html'}
 
 # Customize site text
