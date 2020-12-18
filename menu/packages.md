@@ -6,10 +6,6 @@ title: Packages
 # [pavo](http://pavo.colrverse.com)  
 **Organization, visualise, and analyse spectral and spatial colour data** 
 
-## NOTE (16/12/20)
-
-`pavo` is temporarily unavailable via CRAN, but will be back up shortly. In the meantime, the latest version can be installed following the instruction below (i.e. `remotes::install_github("rmaia/pavo")`). If there are any issues in the meantime just let us know!
-
 `pavo` offers a flexible and integrated workflow for working with spectral and spatial colour data. It includes functions that take advantage of new data classes to work seamlessly from importing raw spectra and images, to publication-quality visualisations, and analyses via a suite of analytical methods and visual models.  
 [Learn more...](http://pavo.colrverse.com)
 
