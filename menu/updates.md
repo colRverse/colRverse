@@ -7,11 +7,9 @@ The most recent package updates:
 
 # pavo 2.7.0 (development)
 
-## MINOR FEATURES AND BUG FIXES
-
 # pavo 2.6.1 (2020-12-21)
 
-## MINOR FEATURES AND BUG FIXES
+## Minor changes and bug fixes
 
 * Minor fix to a vignette to avoid installation issues. 
 * `options()` and `par()` are now always set locally, including in vignettes and
@@ -19,7 +17,7 @@ examples, as to prevent spillover of these changes in the user session
 
 # pavo 2.6.0
 
-## MINOR FEATURES AND BUG FIXES
+## Minor changes and bug fixes
 
 * `bootcoldist()` and `adjacent()` now use a random number generator that 
 generates statistically sound values, even when ran in parallel. The output of
