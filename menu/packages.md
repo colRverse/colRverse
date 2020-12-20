@@ -4,7 +4,7 @@ title: Packages
 ---
 
 # [pavo](http://pavo.colrverse.com)  
-**Organization, visualise, and analyse spectral and spatial colour data** 
+**Organize, visualise, and analyse spectral and spatial colour data** 
 
 `pavo` offers a flexible and integrated workflow for working with spectral and spatial colour data. It includes functions that take advantage of new data classes to work seamlessly from importing raw spectra and images, to publication-quality visualisations, and analyses via a suite of analytical methods and visual models.  
 [Learn more...](http://pavo.colrverse.com)
