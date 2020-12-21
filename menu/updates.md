@@ -7,6 +7,8 @@ The most recent package updates:
 
 # pavo 2.7.0 (development)
 
+* Fixed a recent bug whereby the D65 illuminant was expressed in units of radiant flux, by default. It has instead been converted to photon flux (umol.s-1.m-2). 
+
 # pavo 2.6.1 (2020-12-21)
 
 ## Minor changes and bug fixes
