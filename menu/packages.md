@@ -26,3 +26,12 @@ title: Packages
 **Cite:** Gruson H, White TE, Maia R (2019) lightr: import spectral data and metadata in R. [_Journal of Open Source Software_](https://doi.org/10.21105/joss.01857). 
 
 ---
+
+# [AcuityView](https://doi.org/10.1111/2041-210X.12911) 
+**Represent the effects of visual acuity**
+
+`AcuityView` offers an intuitive method for representing scenes as they may appear to viewers with less acute visual systems, either as a valuable end unto itself or as part of a broader analysis.
+
+**Install:** The `AcuityView` 2.0 algorithm is fully implemented in `pavo` and can be accessed via the `procimg()` function, while the original package remains available via CRAN (`install.packages('AcuityView')`). Either way, please remember to cite and read the accompanying publication for full details.
+
+**Cite:** Caves E, Johnsen S (2017) AcuityView: An r package for portraying the effects of visual acuity on scenes observed by an animal. [_Methods in Ecology and Evolution_](https://doi.org/10.1111/2041-210X.12911).
