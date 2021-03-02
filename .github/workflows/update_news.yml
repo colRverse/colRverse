@@ -4,10 +4,10 @@ on:
   schedule:
     - cron:  '0 0 * * *'
 
-name: pkgdown
+name: news
 
 jobs:
-  pkgdown:
+  news:
     runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -22,12 +22,13 @@ jobs:
           git config --global user.name "gh-pages committer"
 
       - name: Deploy package
-        run: Rscript -e 'build_news(outfile = "menu/updates.md")'
-
-      - name: Commit results
         run: |
-          git clone https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git --branch history --single-branch
-          git add .
-          git commit -m 'Update pkg news'
-          git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:history --force
+          source("build_news.R")
+          build_news(outfile = "menu/updates.md")
+        shell: Rscript {0}
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update news
+          file_pattern: menu/updates.md
 
